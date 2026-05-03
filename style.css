@@ -1,0 +1,23 @@
+body{
+    background-color: gray
+}
+h1{
+    color: white
+}
+#intext,.note-item{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#inbtn{
+    width: 100px;
+    height: 36px;
+    font-size: 16px;
+    background-color: blue;
+    border: none;
+}
+#inbtn:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
