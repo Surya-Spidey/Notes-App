@@ -19,3 +19,14 @@ app.post("/datum",(req,res) => {
     console.log(req.body);
     res.send('Data received');
 })
+
+app.put("/datum/:id",(req,res) => {
+    console.log(req.params.id);
+    console.log(req.body);
+    res.send('Data updated');
+})
+
+app.delete("/datum/:id",(req,res) => {
+    console.log(req.params.id);
+    res.send('My Name is Paul Muadib Atredies');
+})
